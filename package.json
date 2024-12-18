@@ -1,0 +1,50 @@
+{
+  "name": "@megaorm/config",
+  "version": "1.1.0",
+  "description": "This package is designed to help with loading, managing, validating, and ensuring the existence of configuration files in a Node.js project root.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-config.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc --watch"
+  },
+  "keywords": [
+    "config",
+    "megaorm",
+    "megaorm-config",
+    "configuration",
+    "config-loader",
+    "config-manager",
+    "config-helper",
+    "project-config",
+    "node-config",
+    "environment-config",
+    "config-files",
+    "typescript-config",
+    "nodejs",
+    "nodejs-config",
+    "application-config",
+    "settings",
+    "config-utilities",
+    "config-library",
+    "config-tools",
+    "config-parser",
+    "config-management",
+    "runtime-configuration"
+  ],
+  "dependencies": {
+    "@megaorm/test": "^1.2.0"
+  }
+}
